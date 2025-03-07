@@ -1,5 +1,6 @@
 @import url(../global.css);
 
+/* Hero Section */
 .hero {
     padding: 20px 10px;
     width: 100%;
@@ -25,11 +26,358 @@
     font-weight: 400;
 }
 
-
 .hero_title {
     text-align: center;
     padding-top: 180px;
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 700;
+}
+
+/* School Section */
+.school_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.school_title {
+    color: rgb(12, 16, 26);
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 125px;
+}
+
+.school_item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 143px;
+}
+
+.school_item:hover {
+    border-radius: 10px;
+    background: blue;
+}
+
+.school_list {
+    width: 250px;
+    height: 299.4px;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    background: rgb(249, 251, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.school_list:hover {
+    border: none;
+    background: blue;
+    color: var(--white);
+}
+
+.school_list li:hover {
+    background: blue;
+    color: var(--white);
+    border: none;
+}
+
+.school_list li:nth-child(6):hover {
+    background: blue;
+    color: var(--white);
+    border: none;
+}
+
+.school_list p:hover {
+    color: var(--white);
+}
+
+.school_box {
+    width: 70px;
+    height: 69.86px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 53px;
+}
+
+.school_info,
+.school_infor {
+    width: 217px;
+    color: rgb(12, 16, 26);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: center;
+}
+
+.school_info {
+    padding-top: 17px;
+}
+
+.school_infor {
+    width: 175px;
+    padding-top: 24px;
+}
+
+.school_content {
+    display: flex;
+    gap: 46px;
+}
+
+/* Information Section */
+.information {
+    width: 1001px;
+    height: 280px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.school_information {
+    width: 1000px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(43, 167, 226);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.school_suptitle,
+.school_suptitle2,
+.school_suptitle3,
+.school_suptitle4 {
+    color: rgb(58, 78, 80);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 22px;
+}
+
+/* Info Section */
+.info {
+    width: 100%;
+    height: 716px;
+    background: rgb(43, 167, 226);
+    margin-top: 82px;
+}
+
+.info_content {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+}
+
+.info_title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 107px;
+}
+
+.info_suptitle {
+    width: 565px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.info_img {
+    padding-top: 190px;
+}
+
+/* Online Section */
+.online_left_right {
+    display: flex;
+    gap: 62px;
+    align-items: center;
+    margin-top: 117px;
+}
+
+.online_title {
+    color: rgb(12, 16, 26);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.41px;
+}
+
+.online_suptitle {
+    color: rgb(145, 159, 174);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    padding-top: 24px;
+}
+
+.online_btn {
+    width: 184px;
+    height: 40px;
+    color: rgb(206, 205, 205);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: none;
+    background: rgb(1, 147, 220);
+    margin-top: 24px;
+}
+
+/* Post Section */
+.post {
+    margin-top: 50px;
+}
+
+.post_list {
+    width: 155px;
+    height: 34px;
+    border: 1px solid rgb(43, 167, 226);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(145, 159, 174);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.post_item {
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: repeat(1, 50px);
+    margin-top: 36px;
+}
+
+.post_title {
+    color: rgb(12, 16, 26);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.post_list2 {
+    width: 463px;
+    height: 34px;
+    border: 1px solid rgb(43, 167, 226);
+    border-radius: 20px;
+    color: rgb(145, 159, 174);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.j {
+    margin-left: 310px;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    height: 400px;
+    border-radius: 4px;
+    background: rgb(249, 249, 249);
+    margin-top: 30px;
+}
+
+.footer_left_right {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 71px;
+}
+
+.footer_content {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer_right {
+    display: flex;
+    gap: 72px;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_adres {
+    color: rgb(12, 16, 26);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.me_adres {
+    color: rgb(12, 16, 26);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.footer_info {
+    color: rgb(12, 16, 26);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.footer_nav li a {
+    color: rgb(58, 78, 80);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.box {
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgb(230, 230, 231);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_set {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.hr {
+    margin-top: 82px;
+}
+
+.prav {
+    color: rgb(12, 16, 26);
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 23px;
 }
