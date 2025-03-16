@@ -25,7 +25,6 @@
     font-weight: 400;
 }
 
-
 .hero_title {
     text-align: center;
     padding-top: 180px;
@@ -33,6 +32,7 @@
     font-size: 24px;
     font-weight: 700;
 }
+
 .teachers_title {
     color: rgb(0, 0, 0);
     font-size: 24px;
@@ -48,16 +48,15 @@
 }
 
 .teachers_left_right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
 }
 
 .search_box {
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .search_input {
@@ -88,29 +87,13 @@
     background: rgb(249, 251, 253);
 }
 
-.teachers_title {
-    color: rgb(12, 16, 26);
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.teachers_suptitle {
-    width: 837px;
-    color: rgb(145, 159, 174);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: center;
-    padding-top: 20px;
-}
-
 .teachers_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.name {
+.name, .surname, .item {
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-weight: 700;
@@ -119,23 +102,7 @@
 }
 
 .surname {
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-weight: 700;
     padding-top: 5px;
-    padding-left: 20px;
-
-
-}
-
-.item {
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-weight: 700;
-    padding-top: 5px;
-    padding-left: 20px;
-
-
 }
 
 .spann {
@@ -144,13 +111,13 @@
 }
 
 .teach-list {
-    display: flex;
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 1fr);
     margin-left: 110px;
     margin-top: 100px;
     gap: 20px;
 }
+
 /* Footer Section */
 .footer {
     width: 100%;

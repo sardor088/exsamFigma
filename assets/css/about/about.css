@@ -105,7 +105,17 @@
     padding-left: 15px;
     margin-top: 53px;
 }
-
+.school_boxx{
+    width: 70px;
+    height: 69.86px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-top: 5px;
+}
 .school_info,
 .school_infor {
     width: 217px;

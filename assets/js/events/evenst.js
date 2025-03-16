@@ -10,7 +10,6 @@ fetch(apiEvent)
             let wrap = JSON.parse(`${item.body}`);
             liEvt.innerHTML = `
                 <img class="event_img" src="${item.image}" alt=""> 
-                <p class="event_date">${item.createdAt}</p>
                 <p class="event_name">${item.title}</p> 
             `;
             evtList.appendChild(liEvt);
